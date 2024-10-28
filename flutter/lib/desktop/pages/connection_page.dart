@@ -268,10 +268,6 @@ class _ConnectionPageState extends State<ConnectionPage>
     bind.mainOnMainWindowClose();
   }
 
-  @override
-  Widget build(BuildContext context) {
-    final isOutgoingOnly = bind.isOutgoingOnly();
-  }
 
   /// Callback for the connect button.
   /// Connects to the selected peer.
